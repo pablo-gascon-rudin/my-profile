@@ -1,0 +1,97 @@
+h1{
+  letter-spacing: 7px;
+  font-weight: 500;
+  text-justify : center;
+  font-size: 25px;
+}
+
+h1, h2, h3{
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+h2, h3{
+  font-weight: 400;
+}
+.card#intro img {
+  width: 280px;
+  height: 280px;
+}
+.card:nth-of-type(2) img {
+  width: 200px;
+  height: 200px;
+}
+img{
+  width: 440px;
+  height: 240px;
+}
+a{
+  text-decoration: none;
+  color : white;
+  font-family: helvetica;
+  font-weight: bolder;
+}
+p{
+  color: #8c8c8c;
+  font-family: 'Crimson Text', serif;
+}
+.card {
+  background: rgba(109,7,26,.700);
+  padding: 38px;
+  margin: 40px 0px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 5);
+  border-radius: 5px;
+  text-align: center;
+}
+#container {
+  background: rgba(0, 0, 0, .600); ;
+    width: 900px;
+    margin: 50px auto;
+    padding: 40px 100px;
+  border-radius: 4px;
+}
+#card-contact{
+  padding: 60px;
+  margin: 40px 0px;
+  text-align: center;
+}
+#text-center{
+  text-align: center;
+}
+
+.btn-black{
+  background-color: #008080; /* Rouge bordeaux */
+  color: #fff;
+  padding : 15px 20px;
+  border-radius: 5px;
+  border-radius: 50px;
+}
+.btn-black:hover {
+  background-color: #fff;
+  color: #820f8a;
+}
+.list{
+  list-style: none;
+  padding-left: 0px;
+}
+.list li{
+  padding: 8px;
+}
+li{
+  color: #8c8c8c;
+}
+.list i{
+  font-size: 60px;
+  color: #008080;
+}
+.list i:hover{
+  color: rgb(230, 230 ,230);
+}
+#list-inline li{
+  display: inline;
+}
+#intro p {
+  margin-bottom: 30px;
+}
+.img-circle {
+  border-radius: 50%;
+}
